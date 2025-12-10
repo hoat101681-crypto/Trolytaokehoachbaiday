@@ -234,9 +234,10 @@ if uploaded_files:
 # 2. THÔNG TIN
 st.markdown('<div class="section-header">📝 2. THÔNG TIN BÀI DẠY</div>', unsafe_allow_html=True)
 
-c1, c2 = st.columns(2)
+c1, c2, c3 = st.columns(3)
 with c1: lop = st.text_input("📚 Lớp:", "Lớp 4")
-with c2: ten_bai = st.text_input("📌 Tên bài học:", placeholder="Ví dụ: Học hát bài...")
+with c2: Mon = st.text_input("📌 Môn học:", placeholder="Ví dụ: Tiếng Việt...")
+with c3: ten_bai = st.text_input("📌 Tên bài học:", placeholder="Ví dụ: Bài...")
 
 noidung_bosung = st.text_area("✍️ Ghi chú thêm (nội dung/kiến thức):", height=100)
 yeu_cau_them = st.text_input("💡 Yêu cầu đặc biệt:", placeholder="Ví dụ: Tích hợp trò chơi khởi động...")
@@ -347,4 +348,4 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
 
 # --- CHÂN TRANG ---
 st.markdown("---")
-st.markdown("<div style='text-align: center; color: #666;'>© 2025 - Lù Seo Sần - Trường PTDTBT Tiểu học Bản Ngò - ĐT: 097 1986 343</div>", unsafe_allow_html=True)
+st.markdown("<div style='text-align: center; color: #666;'>© 2025 - Nguyễn Chí Công - Trường Tiểu học Nà Chì - ĐT: 0915 576 880</div>", unsafe_allow_html=True)
