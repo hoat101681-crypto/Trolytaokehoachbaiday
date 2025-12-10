@@ -10,7 +10,7 @@ from docx.shared import Pt, RGBColor, Inches, Cm
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 
 # --- 1. CẤU HÌNH TRANG ---
-st.set_page_config(page_title="Trợ lý Giáo án NLS", page_icon="📘", layout="centered")
+st.set_page_config(page_title="Trợ lý Kế hoạch dạy học NLS", page_icon="📘", layout="centered")
 
 FILE_KHUNG_NANG_LUC = "khungnanglucso.pdf"
 
@@ -191,7 +191,7 @@ st.markdown("""
 st.markdown("""
 <div class="main-header">
     <h1>📘 TRỢ LÝ SOẠN GIÁO ÁN TỰ ĐỘNG (NLS)</h1>
-    <p>Tác giả: Lù Seo Sần - Trường PTDTBT Tiểu học Bản Ngò - ĐT: 097 1986 343</p>
+    <p>Tác giả: Nguyễn Chí Công - Trường Tiểu học Nà Chì - ĐT: 0915576880</p>
 </div>
 """, unsafe_allow_html=True)
 
